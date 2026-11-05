@@ -1,0 +1,27 @@
+{
+  "raw_rows": 47,
+  "empty": 0,
+  "duplicates": 1,
+  "near_duplicates": 1,
+  "too_short": 1,
+  "pii_masked": 1,
+  "injection_flags": [
+    "R037"
+  ],
+  "columns": {
+    "id": "review_id",
+    "text": "text",
+    "rating": "rating",
+    "date": "date"
+  },
+  "dropped_columns": [
+    "user_name"
+  ],
+  "usable": 44,
+  "has_rating": true,
+  "has_date": true,
+  "date_range": [
+    "2026-08-12",
+    "2026-10-31"
+  ]
+}

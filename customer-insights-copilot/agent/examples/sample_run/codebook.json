@@ -1,0 +1,60 @@
+{
+  "themes": [
+    {
+      "id": "payments_checkout",
+      "name": "Payment and checkout failures",
+      "definition": "Payments, coupons or checkout steps that fail, double-charge or block an order; not pricing complaints.",
+      "effort": 2,
+      "effort_reason": "Usually one broken flow; a hotfix is possible."
+    },
+    {
+      "id": "delivery_speed",
+      "name": "Late or slow delivery",
+      "definition": "Orders that arrive late, cold or after the time shown; not app speed.",
+      "effort": 4,
+      "effort_reason": "Needs courier capacity and estimate changes across operations."
+    },
+    {
+      "id": "support",
+      "name": "Unhelpful customer support",
+      "definition": "Slow, scripted or unresolved support, including refunds; not the original problem.",
+      "effort": 3,
+      "effort_reason": "Needs staffing and an escalation process."
+    },
+    {
+      "id": "signup_login",
+      "name": "Sign-up and login problems",
+      "definition": "OTP, registration or login steps that fail; not payment verification.",
+      "effort": 2,
+      "effort_reason": "Often fixable with a backup SMS provider."
+    },
+    {
+      "id": "pricing_fees",
+      "name": "Fees and pricing",
+      "definition": "Delivery fees, surge fees or prices seen as unfair; not failed payments.",
+      "effort": 4,
+      "effort_reason": "Pricing changes need commercial sign-off."
+    },
+    {
+      "id": "app_bugs",
+      "name": "App crashes and bugs",
+      "definition": "The app crashes, freezes or shows errors; not slow delivery.",
+      "effort": 3,
+      "effort_reason": "Needs debugging across devices and releases."
+    },
+    {
+      "id": "praise",
+      "name": "What customers like",
+      "definition": "Positive comments on variety, ease of use, speed or staff.",
+      "effort": 1,
+      "effort_reason": "Keep doing what works."
+    },
+    {
+      "id": "other",
+      "name": "Other",
+      "definition": "Fits no theme above.",
+      "effort": 3,
+      "effort_reason": ""
+    }
+  ]
+}

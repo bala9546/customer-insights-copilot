@@ -1,0 +1,67 @@
+{
+  "themes": [
+    {
+      "id": "support_refunds",
+      "name": "Unhelpful support and refused refunds",
+      "definition": "Support that cannot resolve problems (AI chatbot loops, no human agent), refunds refused or replaced by coupons, cancellation charges.",
+      "effort": 3,
+      "effort_reason": "Needs escalation rules, staffing and a clearer refund policy."
+    },
+    {
+      "id": "delivery_failures",
+      "name": "Late, missing or wrong orders",
+      "definition": "Orders that arrive very late, never arrive, arrive incomplete or wrong, or are cancelled after ordering.",
+      "effort": 4,
+      "effort_reason": "Spans riders, restaurants and dispatch, so fixes cut across operations."
+    },
+    {
+      "id": "pricing_fees",
+      "name": "High prices and hidden charges",
+      "definition": "Extra charges, price mismatches with stores, hidden costs, discount codes or offers that do not apply.",
+      "effort": 4,
+      "effort_reason": "Pricing changes need commercial sign-off."
+    },
+    {
+      "id": "food_quality",
+      "name": "Poor food quality and safety",
+      "definition": "Spoiled, bad-tasting or unsafe food and poor packaging; not delivery speed.",
+      "effort": 3,
+      "effort_reason": "Needs restaurant partner audits and quality standards."
+    },
+    {
+      "id": "ordering_payment",
+      "name": "Ordering and payment gaps",
+      "definition": "Missing cash on delivery, cart or login failures, no cancel option, service unavailable in the area.",
+      "effort": 2,
+      "effort_reason": "Mostly product and app changes."
+    },
+    {
+      "id": "trust_safety",
+      "name": "Safety and privacy concerns",
+      "definition": "Abusive delivery agents or misuse of customer data.",
+      "effort": 3,
+      "effort_reason": "Needs investigation and policy enforcement."
+    },
+    {
+      "id": "general_dissatisfaction",
+      "name": "General dissatisfaction",
+      "definition": "Negative views of the app or company with no specific problem named.",
+      "effort": 3,
+      "effort_reason": "Needs research to find the specific cause."
+    },
+    {
+      "id": "praise",
+      "name": "What users like",
+      "definition": "Positive comments on speed, value, food, service or the app.",
+      "effort": 1,
+      "effort_reason": "Protect what already works."
+    },
+    {
+      "id": "other",
+      "name": "Other",
+      "definition": "Fits no theme above.",
+      "effort": 3,
+      "effort_reason": ""
+    }
+  ]
+}
