@@ -1,3 +1,0 @@
-# The agent itself uses only the Python standard library (Python 3.9+).
-# Mock and replay modes need nothing else. For live runs with Claude:
-anthropic   # --model claude

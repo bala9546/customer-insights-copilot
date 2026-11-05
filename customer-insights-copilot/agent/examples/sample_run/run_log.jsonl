@@ -1,8 +1,0 @@
-{"time": "2026-11-05T01:11:15", "step": "1 load and clean", "status": "ok", "model": "mock (offline, keyword rules)", "tokens_total": 0, "note": "44 usable of 47"}
-{"time": "2026-11-05T01:11:15", "step": "2 propose codebook", "status": "ok", "model": "mock (offline, keyword rules)", "tokens_total": 0, "note": "7 themes"}
-{"time": "2026-11-05T01:11:15", "step": "3 approve codebook", "status": "auto-approved", "model": "mock (offline, keyword rules)", "tokens_total": 0, "note": "--auto-approve was set"}
-{"time": "2026-11-05T01:11:15", "step": "4-5 label and verify", "status": "some labels failed", "model": "mock (offline, keyword rules)", "tokens_total": 0, "note": "39 verified, 5 failed", "failed": {"R005": ["evidence is not a word-for-word quote from the review"], "R014": ["evidence is not a word-for-word quote from the review"], "R023": ["evidence is not a word-for-word quote from the review"], "R032": ["evidence is not a word-for-word quote from the review"], "R039": ["evidence is not a word-for-word quote from the review"]}}
-{"time": "2026-11-05T01:11:15", "step": "4-5 label and verify (retry 1)", "status": "ok", "model": "mock (offline, keyword rules)", "tokens_total": 0, "note": "44 verified, 0 failed", "failed": {}}
-{"time": "2026-11-05T01:11:15", "step": "6 aggregate and score", "status": "ok", "model": "mock (offline, keyword rules)", "tokens_total": 0, "note": "7 themes found"}
-{"time": "2026-11-05T01:11:15", "step": "7-8 write and check brief", "status": "pass", "model": "mock (offline, keyword rules)", "tokens_total": 0, "note": null}
-{"time": "2026-11-05T01:11:15", "step": "9 deliver", "status": "verified", "model": "mock (offline, keyword rules)", "tokens_total": 0, "note": "examples/20261105-011115/memo.md"}
