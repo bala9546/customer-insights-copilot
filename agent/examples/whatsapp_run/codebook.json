@@ -1,0 +1,60 @@
+{
+  "themes": [
+    {
+      "id": "account_access",
+      "name": "Account bans and login lockouts",
+      "definition": "Accounts banned, under review, not verified, logged out or unable to open; not general app bugs.",
+      "effort": 4,
+      "effort_reason": "Needs changes to trust-and-safety review and appeal processes, not just code."
+    },
+    {
+      "id": "bugs_performance",
+      "name": "Bugs, crashes and slowness",
+      "definition": "The app crashes, stops, freezes, loads or downloads slowly, or calls are unstable; not account bans.",
+      "effort": 3,
+      "effort_reason": "Needs debugging across devices, networks and releases."
+    },
+    {
+      "id": "removed_features",
+      "name": "Removed or changed features",
+      "definition": "Complaints that an existing feature was removed or changed for the worse (edit option, pins, reaction bar).",
+      "effort": 2,
+      "effort_reason": "Usually a setting or rollback of a recent change."
+    },
+    {
+      "id": "feature_requests",
+      "name": "New feature requests",
+      "definition": "Asks for capabilities the app does not have (live video, privacy controls, backup recovery, image quality).",
+      "effort": 4,
+      "effort_reason": "New features need design, build and privacy review."
+    },
+    {
+      "id": "ads",
+      "name": "Ads in the app",
+      "definition": "Complaints about advertising inside the app.",
+      "effort": 3,
+      "effort_reason": "A commercial decision on ad placement and frequency."
+    },
+    {
+      "id": "general_dissatisfaction",
+      "name": "General dissatisfaction",
+      "definition": "Negative views of the app or company with no specific problem named.",
+      "effort": 3,
+      "effort_reason": "Needs research to find the specific cause."
+    },
+    {
+      "id": "praise",
+      "name": "What users like",
+      "definition": "Positive comments on ease of use, reliability, staying connected, privacy or cost.",
+      "effort": 1,
+      "effort_reason": "Protect what already works."
+    },
+    {
+      "id": "other",
+      "name": "Other",
+      "definition": "Fits no theme above.",
+      "effort": 3,
+      "effort_reason": ""
+    }
+  ]
+}

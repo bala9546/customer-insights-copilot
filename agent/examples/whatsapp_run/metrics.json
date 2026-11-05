@@ -1,0 +1,342 @@
+{
+  "n": 116,
+  "overall_rating": 4.025862068965517,
+  "sentiment": {
+    "mixed": 11,
+    "negative": 37,
+    "positive": 68
+  },
+  "churn_ids": [
+    "3545f316-72ac-465d-b297-5e1b31b33554"
+  ],
+  "themes": [
+    {
+      "id": "bugs_performance",
+      "name": "Bugs, crashes and slowness",
+      "mentions": 14,
+      "share": 0.1206896551724138,
+      "ci_low": 0.0732692940620856,
+      "ci_high": 0.19242809315570858,
+      "avg_rating": 2.9285714285714284,
+      "rating_gap": -1.0972906403940885,
+      "churn_mentions": 0,
+      "churn_share": 0.0,
+      "trend": null,
+      "type": "Issue",
+      "review_ids": [
+        "9f5c447d-82c5-47c5-af80-973dcb17a0ba",
+        "db368194-9cdc-4f2b-8134-1e4c62b56586",
+        "8451edd3-6b7c-4e8f-9fab-be975e2ad09f",
+        "d99ad9a8-8da5-402f-91c5-0d3416d6f423",
+        "ad1167b7-d69b-442c-a036-f0a0f7341f5e",
+        "2634c7b6-8044-40fc-bfa2-c8b4c68be3de",
+        "d029983f-4ddb-444e-9b92-6b6e8010812f",
+        "74c2fcae-70d3-445c-bc3f-0bc27ab6271e",
+        "054448bc-ec04-4c6e-b5ae-76ef5f9cde09",
+        "3022408d-2bce-4256-aa5b-b875022d3a97",
+        "c80de3f7-c07f-4acc-bfe4-1bb54b9a3dd3",
+        "f91f25d9-6e9e-408c-9ee9-9a83826cf4d9",
+        "1dd1fd5d-7894-465f-ad56-335d3f99fc2c",
+        "d14c7777-1c6f-43bc-8019-23fffff7e39d"
+      ],
+      "evidence": [
+        {
+          "review_id": "9f5c447d-82c5-47c5-af80-973dcb17a0ba",
+          "quote": "Full of errors I've been trying to add a status for a week"
+        },
+        {
+          "review_id": "8451edd3-6b7c-4e8f-9fab-be975e2ad09f",
+          "quote": "whatapp freezer and glitch"
+        }
+      ],
+      "effort": 3,
+      "effort_reason": "Needs debugging across devices, networks and releases.",
+      "impact": 3,
+      "confidence": "High",
+      "priority": 0.1206896551724138,
+      "quadrant": "Deprioritize",
+      "rank": 1
+    },
+    {
+      "id": "account_access",
+      "name": "Account bans and login lockouts",
+      "mentions": 16,
+      "share": 0.13793103448275862,
+      "ci_low": 0.08671766101537676,
+      "ci_high": 0.21235711769251764,
+      "avg_rating": 3.0625,
+      "rating_gap": -0.9633620689655169,
+      "churn_mentions": 0,
+      "churn_share": 0.0,
+      "trend": null,
+      "type": "Issue",
+      "review_ids": [
+        "bacc5800-8da4-483d-bd32-e507e6f853fe",
+        "a991af3b-3466-42ce-b860-5d7723efc00c",
+        "5c85d464-713b-4de9-a34d-d69d851909dd",
+        "702c1cb1-3b64-4d39-9feb-ad708cad26f8",
+        "9db1f071-d7cb-42bc-9c58-0e03251c269e",
+        "f69b9d7a-6749-40f0-b1bb-dc389155b357",
+        "196c2ad3-6590-4c7b-9962-88adbc3dbbdc",
+        "e2b275a1-f967-424a-ae59-ffbfe743b82d",
+        "dc07d638-fb80-4cff-b7b1-00bc20983b25",
+        "00407b96-3b3f-4e63-8aac-d521b9c82448",
+        "6a1ab931-472c-449a-a999-5feb0e820ec2",
+        "fa00d949-4f00-40b8-83d4-5d8ec0efdcd5",
+        "f76557b4-228f-42b5-bd0c-d7d58e2e950a",
+        "9e52965e-5a10-4adc-84ea-5b963693cba2",
+        "5d490ff7-1606-41b9-9a3b-d90f23950669",
+        "62140653-331e-466b-8679-7d4b1b7fc5ec"
+      ],
+      "evidence": [
+        {
+          "review_id": "5c85d464-713b-4de9-a34d-d69d851909dd",
+          "quote": "Stop messing with the account"
+        },
+        {
+          "review_id": "9db1f071-d7cb-42bc-9c58-0e03251c269e",
+          "quote": "my account has not been opening for few ago"
+        }
+      ],
+      "effort": 4,
+      "effort_reason": "Needs changes to trust-and-safety review and appeal processes, not just code.",
+      "impact": 3,
+      "confidence": "High",
+      "priority": 0.10344827586206896,
+      "quadrant": "Deprioritize",
+      "rank": 2
+    },
+    {
+      "id": "removed_features",
+      "name": "Removed or changed features",
+      "mentions": 5,
+      "share": 0.04310344827586207,
+      "ci_low": 0.018549292808975083,
+      "ci_high": 0.09694983270336788,
+      "avg_rating": 1.8,
+      "rating_gap": -2.225862068965517,
+      "churn_mentions": 0,
+      "churn_share": 0.0,
+      "trend": null,
+      "type": "Issue",
+      "review_ids": [
+        "1cca8c9d-87a5-4b75-908f-0e00088ec165",
+        "543362d9-6c23-40ac-a71b-d2c97d6cefe4",
+        "5699b5ab-638a-499c-8227-d8a6c19006b4",
+        "70b9652d-0532-4cf0-8a5a-bc14131f4357",
+        "e2823bf6-0028-42a0-9b44-00c276cfad9e"
+      ],
+      "evidence": [
+        {
+          "review_id": "1cca8c9d-87a5-4b75-908f-0e00088ec165",
+          "quote": "recently you removed the \"edit\" option and it's uncomfortable"
+        },
+        {
+          "review_id": "543362d9-6c23-40ac-a71b-d2c97d6cefe4",
+          "quote": "Bio otomatick remove problem"
+        }
+      ],
+      "effort": 2,
+      "effort_reason": "Usually a setting or rollback of a recent change.",
+      "impact": 4,
+      "confidence": "Medium",
+      "priority": 0.06896551724137932,
+      "quadrant": "Quick win",
+      "rank": 3
+    },
+    {
+      "id": "feature_requests",
+      "name": "New feature requests",
+      "mentions": 6,
+      "share": 0.05172413793103448,
+      "ci_low": 0.02391832740361237,
+      "ci_high": 0.10826949385378072,
+      "avg_rating": 3.3333333333333335,
+      "rating_gap": -0.6925287356321834,
+      "churn_mentions": 0,
+      "churn_share": 0.0,
+      "trend": null,
+      "type": "Issue",
+      "review_ids": [
+        "c1641835-7c24-4633-aec6-8d1b9e1f3ff1",
+        "d085a682-4c10-4afc-a1b6-82ad7eebb92a",
+        "830dd8c0-9635-4512-a083-022f41d925a1",
+        "22d1b24a-ad1e-4fb3-be68-82a980c1d8b7",
+        "e9c3a546-adc2-4fc9-bd38-eaf144f8bb9b",
+        "a7188620-0a00-4d70-a728-ef3e0be6be6b"
+      ],
+      "evidence": [
+        {
+          "review_id": "c1641835-7c24-4633-aec6-8d1b9e1f3ff1",
+          "quote": "you will never get them back which is frustrating"
+        },
+        {
+          "review_id": "e9c3a546-adc2-4fc9-bd38-eaf144f8bb9b",
+          "quote": "I am disappointed that WhatsApp still lacks some basic but important privacy features"
+        }
+      ],
+      "effort": 4,
+      "effort_reason": "New features need design, build and privacy review.",
+      "impact": 3,
+      "confidence": "Medium",
+      "priority": 0.031034482758620693,
+      "quadrant": "Deprioritize",
+      "rank": 4
+    },
+    {
+      "id": "general_dissatisfaction",
+      "name": "General dissatisfaction",
+      "mentions": 2,
+      "share": 0.017241379310344827,
+      "ci_low": 0.004740913854513688,
+      "ci_high": 0.06069212442267886,
+      "avg_rating": 1.0,
+      "rating_gap": -3.025862068965517,
+      "churn_mentions": 1,
+      "churn_share": 0.5,
+      "trend": null,
+      "type": "Issue",
+      "review_ids": [
+        "3545f316-72ac-465d-b297-5e1b31b33554",
+        "27a988c6-5d71-4e39-9976-e03028cf92d1"
+      ],
+      "evidence": [
+        {
+          "review_id": "3545f316-72ac-465d-b297-5e1b31b33554",
+          "quote": "Just use Telegram"
+        },
+        {
+          "review_id": "27a988c6-5d71-4e39-9976-e03028cf92d1",
+          "quote": "Mark Zuckerberg what were u thinking"
+        }
+      ],
+      "effort": 3,
+      "effort_reason": "Needs research to find the specific cause.",
+      "impact": 5,
+      "confidence": "Low",
+      "priority": 0.014367816091954025,
+      "quadrant": "Major project",
+      "rank": 5
+    },
+    {
+      "id": "ads",
+      "name": "Ads in the app",
+      "mentions": 1,
+      "share": 0.008620689655172414,
+      "ci_low": 0.0015233485646961933,
+      "ci_high": 0.04722099396744623,
+      "avg_rating": 5.0,
+      "rating_gap": 0.9741379310344831,
+      "churn_mentions": 0,
+      "churn_share": 0.0,
+      "trend": null,
+      "type": "Issue",
+      "review_ids": [
+        "76afbb37-3e2b-4547-97f8-70af65c2f324"
+      ],
+      "evidence": [
+        {
+          "review_id": "76afbb37-3e2b-4547-97f8-70af65c2f324",
+          "quote": "lately there's to may ads"
+        }
+      ],
+      "effort": 3,
+      "effort_reason": "A commercial decision on ad placement and frequency.",
+      "impact": 1,
+      "confidence": "Low",
+      "priority": 0.0014367816091954023,
+      "quadrant": "Deprioritize",
+      "rank": 6
+    },
+    {
+      "id": "praise",
+      "name": "What users like",
+      "mentions": 55,
+      "share": 0.47413793103448276,
+      "ci_low": 0.3855624896647156,
+      "ci_high": 0.564371423100134,
+      "avg_rating": 4.7272727272727275,
+      "rating_gap": 0.7014106583072106,
+      "churn_mentions": 0,
+      "churn_share": 0.0,
+      "trend": null,
+      "type": "Strength",
+      "review_ids": [
+        "c7395dad-ff88-4c6d-9b94-c645ce6a0f4d",
+        "18c70348-1af8-455b-ba41-617d04766e1a",
+        "76afbb37-3e2b-4547-97f8-70af65c2f324",
+        "645cc208-4ada-493e-bbee-35159649671d",
+        "066f1ef3-62d0-4a7d-a2c0-ac999cb9b8a7",
+        "e67b0646-f3a2-4cda-90df-d53ad6d5f916",
+        "40088a03-9082-4be5-ad99-8e0fc64a85e4",
+        "7943856a-b679-49b8-aefc-afc521b96457",
+        "e7aa5f30-4e8d-42ef-8b0e-e5b6564cdaea",
+        "7d90a85c-3dfc-4b3c-aaae-9589f5f4be8e",
+        "8a38344d-0c84-4d5a-b6e0-17d2e89f7162",
+        "6108c340-082a-4bc5-9107-e1be93a0acfd",
+        "1cca8c9d-87a5-4b75-908f-0e00088ec165",
+        "4dbe63d7-6bcc-45e8-b61a-a017e3089f78",
+        "66d8bc33-a54e-49a0-834b-07550ba42c3a",
+        "ef2b4eb7-4c9a-493f-9db5-ff38a942685c",
+        "fde35e00-5ca3-460e-a7b5-1d3d405a3987",
+        "42a00be7-32cd-4691-bb2a-2af7f2c3ef95",
+        "b32c968a-516d-4555-ac25-a6f2626cde3e",
+        "d085a682-4c10-4afc-a1b6-82ad7eebb92a",
+        "627e8ecd-45dd-4ddd-b449-93b82969d9f1",
+        "58df9847-0885-4ce8-9e29-517d404c7ca9",
+        "d67ff202-e8a9-4fc9-9049-ede0f3fdcafd",
+        "23bdb872-1f32-4007-8a12-861c49436e0a",
+        "30ef4577-e262-4346-bb5a-530e93390f4a",
+        "4111c28e-fa9f-4b63-b304-3f18229b9c22",
+        "9b61d09b-32e6-4135-919a-3cdfbc368e5f",
+        "9ff6b07d-372b-4616-907e-426b1b0602db",
+        "185d4084-cd96-496a-a9b3-e2e6bdadf8a1",
+        "72f1c32f-7c9f-4599-8b6d-b2cea4a13a7b",
+        "9a51d3f2-de69-48de-bb5c-a96731379339",
+        "efc8de31-04b8-4456-a161-c08c88ff18dd",
+        "57582ac4-24e4-4441-bc9e-954694c04ba6",
+        "bc5ea646-c6f9-4085-9457-c416b1c53691",
+        "5cc58f49-14c0-4fee-8716-ea0a26cecd3a",
+        "5fc511fc-810b-4c51-85c6-0728816b264e",
+        "73047a7a-5d6c-4f2c-96bf-808f6d4d9bc7",
+        "30466721-948e-49d4-8ff7-6acdd999669f",
+        "0a31865a-49f9-4311-92dd-3985c00fedb7",
+        "3e07a6d9-4c81-4341-a07c-d1f7739de1dc",
+        "e6b3ee71-a41c-45f6-837f-71f725c12ac3",
+        "e4219496-c65d-4dee-ad33-e1dec615737e",
+        "f764b9b4-bc02-455a-b2fb-8f6ac3b1a0ba",
+        "054448bc-ec04-4c6e-b5ae-76ef5f9cde09",
+        "b3df7218-d5f4-48c3-ac8f-24c2756f0f2b",
+        "bc237466-5083-49b8-9bd7-aee29bc29555",
+        "92d1e276-a03a-4c79-99a2-6e03ff060391",
+        "c8a95fad-97d7-47b0-ac0e-e5c76785241a",
+        "5b9e37e2-da31-4d34-9c4b-df79f04be57c",
+        "063baba4-74d6-4fdc-bfec-78f1c4dd8ed6",
+        "9be5ca3c-7192-45da-ae8f-afede7a2f1bd",
+        "c61baf97-8d84-402c-b6b3-90354212073f",
+        "5f28b9a7-70d5-4547-af4a-857a0e142663",
+        "f5c5ae6b-dee7-49c0-a4b7-f9258a820766",
+        "2307bdb8-aa82-40fa-b9e0-46c1009540ba"
+      ],
+      "evidence": [
+        {
+          "review_id": "c7395dad-ff88-4c6d-9b94-c645ce6a0f4d",
+          "quote": "It's just amazing"
+        },
+        {
+          "review_id": "18c70348-1af8-455b-ba41-617d04766e1a",
+          "quote": "it's a good app ,easy to use and efficient."
+        }
+      ],
+      "effort": 1,
+      "effort_reason": "Protect what already works.",
+      "impact": 1,
+      "confidence": "High",
+      "priority": 0.47413793103448276,
+      "quadrant": "Strength",
+      "rank": 7
+    }
+  ],
+  "other_share": 0.1810344827586207,
+  "coverage": 0.8189655172413793
+}

@@ -1,0 +1,71 @@
+{
+  "headline": "Customers are leaving mainly because support cannot fix failed orders: refunds are refused or swapped for coupons and the chatbot will not hand over to a person, while adding a cancel option and cash on delivery is the quickest win.",
+  "summary": "Unhelpful support and late, missing or wrong orders dominate the detailed reviews, and several reviewers say they have uninstalled or moved to a rival. One- and two-word reviews, which are mostly positive, were removed as too short, so this sample of detailed reviews leans more negative than the store rating.",
+  "themes": [
+    {
+      "id": "support_refunds",
+      "root_cause_hypothesis": "An AI-first support flow likely lacks a clear route to a human, and refund rules may favour restaurants over customers.",
+      "business_impact": "Turns a single failed order into a lost customer; this theme carries most of the churn signals.",
+      "action": "Add a guaranteed human handover after a failed chatbot attempt, and refund failed or incomplete orders by default.",
+      "owner": "Customer support operations",
+      "kpi": "First-contact resolution rate"
+    },
+    {
+      "id": "delivery_failures",
+      "root_cause_hypothesis": "Order batching and optimistic delivery estimates likely cause long delays, and restaurant-side cancellations may go unchecked.",
+      "business_impact": "Late or incomplete orders trigger most support contacts.",
+      "action": "Cap batching on long routes, show realistic estimates, and penalise restaurants that cancel or short-deliver.",
+      "owner": "Delivery operations",
+      "kpi": "On-time and complete-order rate"
+    },
+    {
+      "id": "ordering_payment",
+      "root_cause_hypothesis": "Payment and cancellation options may have been reduced to cut costs, which locks some customers out.",
+      "business_impact": "Customers who need cash on delivery or a quick cancel cannot complete or fix an order.",
+      "action": "Restore cash on delivery where possible and add a clear cancel window before the restaurant accepts.",
+      "owner": "Consumer app product team",
+      "kpi": "Order completion rate"
+    },
+    {
+      "id": "general_dissatisfaction",
+      "root_cause_hypothesis": "These customers likely had one of the problems above but did not describe it.",
+      "business_impact": "Strong negative sentiment that spreads through public ratings.",
+      "action": "Prompt low-rating reviewers for a reason so the cause can be tracked.",
+      "owner": "User research",
+      "kpi": "Share of low ratings with a stated reason"
+    },
+    {
+      "id": "pricing_fees",
+      "root_cause_hypothesis": "Layered fees and differences from store menu prices likely make the final bill feel unpredictable.",
+      "business_impact": "Price-sensitive customers may compare against rivals on every order.",
+      "action": "Show the full price breakdown upfront and align listed prices with store prices.",
+      "owner": "Pricing and product",
+      "kpi": "Repeat order rate"
+    },
+    {
+      "id": "food_quality",
+      "root_cause_hypothesis": "Some restaurant partners may not meet freshness, safety and packaging standards.",
+      "business_impact": "Unsafe food damages trust in the platform, not just the restaurant.",
+      "action": "Audit partners with repeated food complaints and enforce packaging standards.",
+      "owner": "Restaurant partnerships",
+      "kpi": "Food-quality complaint rate per restaurant"
+    },
+    {
+      "id": "trust_safety",
+      "root_cause_hypothesis": "Rider conduct and data-sharing rules may not be enforced consistently.",
+      "business_impact": "Rare but serious; one reviewer uninstalled after an abusive delivery agent.",
+      "action": "Investigate both reports and publish a clear rider conduct and data-use policy.",
+      "owner": "Trust and safety",
+      "kpi": "Safety incidents per order"
+    },
+    {
+      "id": "praise",
+      "root_cause_hypothesis": "Speed, value and convenience likely keep satisfied customers ordering.",
+      "business_impact": "A loyal base to protect while service failures are fixed.",
+      "action": "Protect fast delivery and value pricing in future changes.",
+      "owner": "Product leadership",
+      "kpi": "Share of positive reviews"
+    }
+  ],
+  "follow_up_question": "Should I break the support complaints down into refunds, chatbot loops and cancellation fees, or draft a human-handover policy?"
+}

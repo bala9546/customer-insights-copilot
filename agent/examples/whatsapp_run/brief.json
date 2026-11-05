@@ -1,0 +1,63 @@
+{
+  "headline": "Crashes and slowness, along with account lockouts, are what users complain about most, and bringing back the removed edit option is the quickest win.",
+  "summary": "Most reviews in this sample are positive, so complaints are a minority, but they cluster around two problems: the app crashing or loading slowly, and accounts being banned, left unverified or logged out. Many locked-out users still give high star ratings while asking for help, so rating-based severity likely understates how serious the lockouts are.",
+  "themes": [
+    {
+      "id": "bugs_performance",
+      "root_cause_hypothesis": "Recent releases may have introduced stability and loading regressions, likely worse on low-end devices or weak networks.",
+      "business_impact": "Daily frustration that wears down trust in the app's reliability.",
+      "action": "Track crash and slow-load rates by app version and device, and fix the top regressions first.",
+      "owner": "Android engineering",
+      "kpi": "Crash-free session rate"
+    },
+    {
+      "id": "account_access",
+      "root_cause_hypothesis": "Automated spam detection likely flags some genuine users, and the appeal path may be unclear, so users plead for help in reviews instead.",
+      "business_impact": "Locked-out users lose access to all their contacts, the most severe experience in this sample.",
+      "action": "Audit false-positive bans and add a clear in-app appeal with status updates.",
+      "owner": "Trust and safety",
+      "kpi": "Appeal resolution time"
+    },
+    {
+      "id": "removed_features",
+      "root_cause_hypothesis": "Recent interface changes, such as removing message editing, likely shipped without enough user testing.",
+      "business_impact": "A small group, but with the lowest ratings in the sample.",
+      "action": "Restore the edit option and make the new pin and reaction-bar behaviour optional.",
+      "owner": "Messaging product team",
+      "kpi": "Rating among reviews that mention editing"
+    },
+    {
+      "id": "feature_requests",
+      "root_cause_hypothesis": "Power users may want more control over privacy, backups and media quality than current settings allow.",
+      "business_impact": "Requests rather than blockers; useful input for the roadmap.",
+      "action": "Log these requests and test demand for backup recovery and privacy controls.",
+      "owner": "Product management",
+      "kpi": "Feature request volume by topic"
+    },
+    {
+      "id": "general_dissatisfaction",
+      "root_cause_hypothesis": "These users may have a specific problem they did not describe; the sample is too small to tell.",
+      "business_impact": "One reviewer tells others to use a rival app, a direct churn signal.",
+      "action": "Follow up with short surveys to find the specific cause.",
+      "owner": "User research",
+      "kpi": "Share of reviews that name a specific problem"
+    },
+    {
+      "id": "ads",
+      "root_cause_hypothesis": "Ad placements may have increased recently for some users.",
+      "business_impact": "A single mention, so this is anecdotal.",
+      "action": "Monitor ad complaints before acting.",
+      "owner": "Monetization team",
+      "kpi": "Share of reviews mentioning ads"
+    },
+    {
+      "id": "praise",
+      "root_cause_hypothesis": "Simplicity, reliability and free communication likely drive loyalty.",
+      "business_impact": "A strong base of satisfied users to protect while the issues are fixed.",
+      "action": "Protect simplicity and reliability in every future change.",
+      "owner": "Product leadership",
+      "kpi": "Share of positive reviews"
+    }
+  ],
+  "follow_up_question": "Should I split the lockout reviews into bans, verification failures and logouts, or draft an improved appeal flow?"
+}

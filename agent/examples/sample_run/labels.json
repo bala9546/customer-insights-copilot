@@ -1,0 +1,448 @@
+[
+  {
+    "review_id": "R001",
+    "themes": [
+      "praise"
+    ],
+    "sentiment": "positive",
+    "journey_stage": null,
+    "churn_intent": false,
+    "evidence": "Love the variety of restaurants and the app is easy to use."
+  },
+  {
+    "review_id": "R002",
+    "themes": [
+      "delivery_speed"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Delivery",
+    "churn_intent": false,
+    "evidence": "Food arrived cold and over an hour late."
+  },
+  {
+    "review_id": "R003",
+    "themes": [
+      "praise"
+    ],
+    "sentiment": "positive",
+    "journey_stage": null,
+    "churn_intent": false,
+    "evidence": "Great offers and polite delivery partners."
+  },
+  {
+    "review_id": "R004",
+    "themes": [
+      "signup_login"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Sign-up",
+    "churn_intent": false,
+    "evidence": "OTP never arrives so I cannot even sign up."
+  },
+  {
+    "review_id": "R006",
+    "themes": [
+      "support"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Support",
+    "churn_intent": false,
+    "evidence": "Support bot repeats the same answer and never connects me to a person."
+  },
+  {
+    "review_id": "R007",
+    "themes": [
+      "praise"
+    ],
+    "sentiment": "positive",
+    "journey_stage": null,
+    "churn_intent": false,
+    "evidence": "Quick delivery and good packaging, best app in my area."
+  },
+  {
+    "review_id": "R008",
+    "themes": [
+      "delivery_speed"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Delivery",
+    "churn_intent": true,
+    "evidence": "Waited over an hour and the food was cold."
+  },
+  {
+    "review_id": "R009",
+    "themes": [
+      "pricing_fees"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Pricing",
+    "churn_intent": false,
+    "evidence": "Surge fee at dinner time makes it too expensive."
+  },
+  {
+    "review_id": "R010",
+    "themes": [
+      "praise"
+    ],
+    "sentiment": "positive",
+    "journey_stage": null,
+    "churn_intent": false,
+    "evidence": "Smooth ordering experience, delivery was on time."
+  },
+  {
+    "review_id": "R011",
+    "themes": [
+      "support"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Support",
+    "churn_intent": false,
+    "evidence": "Missing items and the refund was rejected by customer care."
+  },
+  {
+    "review_id": "R012",
+    "themes": [
+      "app_bugs"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "App use",
+    "churn_intent": false,
+    "evidence": "The app crashes when I open the restaurant menu."
+  },
+  {
+    "review_id": "R013",
+    "themes": [
+      "praise"
+    ],
+    "sentiment": "positive",
+    "journey_stage": null,
+    "churn_intent": false,
+    "evidence": "Amazing biryani and the rider was polite."
+  },
+  {
+    "review_id": "R015",
+    "themes": [
+      "pricing_fees"
+    ],
+    "sentiment": "mixed",
+    "journey_stage": "Pricing",
+    "churn_intent": false,
+    "evidence": "Prices on the app are higher than in the restaurant."
+  },
+  {
+    "review_id": "R016",
+    "themes": [
+      "signup_login"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Sign-up",
+    "churn_intent": false,
+    "evidence": "OTP issues again, could not log in for two days."
+  },
+  {
+    "review_id": "R017",
+    "themes": [
+      "support"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Support",
+    "churn_intent": false,
+    "evidence": "Support took three days to reply about my complaint."
+  },
+  {
+    "review_id": "R018",
+    "themes": [
+      "praise",
+      "pricing_fees"
+    ],
+    "sentiment": "positive",
+    "journey_stage": null,
+    "churn_intent": false,
+    "evidence": "Easy to use, but the delivery fee is a bit high."
+  },
+  {
+    "review_id": "R019",
+    "themes": [
+      "delivery_speed"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Delivery",
+    "churn_intent": true,
+    "evidence": "Order was delayed by 50 minutes with no updates."
+  },
+  {
+    "review_id": "R020",
+    "themes": [
+      "payments_checkout"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Checkout",
+    "churn_intent": false,
+    "evidence": "Payment failed but money was debited from my account."
+  },
+  {
+    "review_id": "R021",
+    "themes": [
+      "praise"
+    ],
+    "sentiment": "positive",
+    "journey_stage": null,
+    "churn_intent": false,
+    "evidence": "Great variety and fast service, I love it."
+  },
+  {
+    "review_id": "R022",
+    "themes": [
+      "payments_checkout"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Checkout",
+    "churn_intent": false,
+    "evidence": "Coupon code does not apply at checkout after the update."
+  },
+  {
+    "review_id": "R024",
+    "themes": [
+      "payments_checkout",
+      "app_bugs"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Checkout",
+    "churn_intent": true,
+    "evidence": "Checkout crashed and I was charged twice."
+  },
+  {
+    "review_id": "R025",
+    "themes": [
+      "payments_checkout"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Checkout",
+    "churn_intent": false,
+    "evidence": "Coupon code field is broken, wasted 20 minutes and ordered elsewhere."
+  },
+  {
+    "review_id": "R026",
+    "themes": [
+      "payments_checkout",
+      "app_bugs"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Checkout",
+    "churn_intent": false,
+    "evidence": "Payment page keeps loading and then shows an error."
+  },
+  {
+    "review_id": "R027",
+    "themes": [
+      "praise"
+    ],
+    "sentiment": "positive",
+    "journey_stage": null,
+    "churn_intent": false,
+    "evidence": "Love the new restaurant list, very easy to use."
+  },
+  {
+    "review_id": "R028",
+    "themes": [
+      "delivery_speed"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Delivery",
+    "churn_intent": true,
+    "evidence": "Food came cold after a long delay."
+  },
+  {
+    "review_id": "R029",
+    "themes": [
+      "payments_checkout",
+      "support"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Checkout",
+    "churn_intent": true,
+    "evidence": "Charged twice for one order and support refused a refund."
+  },
+  {
+    "review_id": "R030",
+    "themes": [
+      "payments_checkout"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Checkout",
+    "churn_intent": false,
+    "evidence": "Coupon not working at checkout, tried three times."
+  },
+  {
+    "review_id": "R031",
+    "themes": [
+      "pricing_fees"
+    ],
+    "sentiment": "mixed",
+    "journey_stage": "Pricing",
+    "churn_intent": false,
+    "evidence": "Delivery fee is higher than other apps, they are cheaper."
+  },
+  {
+    "review_id": "R033",
+    "themes": [
+      "praise"
+    ],
+    "sentiment": "positive",
+    "journey_stage": null,
+    "churn_intent": false,
+    "evidence": "Polite rider and quick delivery, good experience."
+  },
+  {
+    "review_id": "R034",
+    "themes": [
+      "signup_login"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Sign-up",
+    "churn_intent": false,
+    "evidence": "OTP did not arrive for twenty minutes during sign up."
+  },
+  {
+    "review_id": "R035",
+    "themes": [
+      "payments_checkout"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Checkout",
+    "churn_intent": false,
+    "evidence": "Transaction failed and the money is still not back after a week."
+  },
+  {
+    "review_id": "R036",
+    "themes": [
+      "app_bugs",
+      "payments_checkout"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "App use",
+    "churn_intent": false,
+    "evidence": "The app crashes every time I apply a coupon at checkout."
+  },
+  {
+    "review_id": "R037",
+    "themes": [
+      "payments_checkout"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Checkout",
+    "churn_intent": false,
+    "evidence": "Honestly the checkout is broken."
+  },
+  {
+    "review_id": "R038",
+    "themes": [
+      "delivery_speed"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Delivery",
+    "churn_intent": false,
+    "evidence": "Waited an hour for delivery and the estimate kept changing."
+  },
+  {
+    "review_id": "R040",
+    "themes": [
+      "payments_checkout"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Checkout",
+    "churn_intent": false,
+    "evidence": "Coupon code fails at checkout again, very frustrating."
+  },
+  {
+    "review_id": "R042",
+    "themes": [
+      "praise"
+    ],
+    "sentiment": "positive",
+    "journey_stage": null,
+    "churn_intent": false,
+    "evidence": "Excellent food and smooth delivery as always."
+  },
+  {
+    "review_id": "R043",
+    "themes": [
+      "payments_checkout",
+      "support"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Checkout",
+    "churn_intent": true,
+    "evidence": "Double charged at checkout and no help from customer care."
+  },
+  {
+    "review_id": "R044",
+    "themes": [
+      "pricing_fees"
+    ],
+    "sentiment": "mixed",
+    "journey_stage": "Pricing",
+    "churn_intent": false,
+    "evidence": "Prices went up and the surge fee is too high now."
+  },
+  {
+    "review_id": "R046",
+    "themes": [
+      "payments_checkout"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Checkout",
+    "churn_intent": false,
+    "evidence": "Payment stuck on processing and order got cancelled."
+  },
+  {
+    "review_id": "R005",
+    "themes": [
+      "pricing_fees"
+    ],
+    "sentiment": "mixed",
+    "journey_stage": "Pricing",
+    "churn_intent": false,
+    "evidence": "Delivery fee keeps going up for short distances."
+  },
+  {
+    "review_id": "R014",
+    "themes": [
+      "delivery_speed"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Delivery",
+    "churn_intent": false,
+    "evidence": "Delivery time estimate says 30 minutes but it always takes an hour."
+  },
+  {
+    "review_id": "R023",
+    "themes": [
+      "app_bugs"
+    ],
+    "sentiment": "mixed",
+    "journey_stage": "App use",
+    "churn_intent": false,
+    "evidence": "App freezes on the tracking screen sometimes."
+  },
+  {
+    "review_id": "R032",
+    "themes": [
+      "payments_checkout"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Checkout",
+    "churn_intent": false,
+    "evidence": "Payment failed three times in a row since the update."
+  },
+  {
+    "review_id": "R039",
+    "themes": [
+      "support"
+    ],
+    "sentiment": "negative",
+    "journey_stage": "Support",
+    "churn_intent": true,
+    "evidence": "Support chat is a bot that never solves anything."
+  }
+]
